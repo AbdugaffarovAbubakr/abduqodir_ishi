@@ -519,13 +519,89 @@ button.ghost {
   font-size: 12px;
 }
 
-@media (max-width: 720px) {
-  .hero {
-    padding: 20px;
+@media (max-width: 1024px) {
+  .shell {
+    padding: 28px 18px 40px;
   }
 
   .auth-hero {
     grid-template-columns: 1fr;
+  }
+
+  .device-tabs {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 720px) {
+  .shell {
+    padding: 20px 14px 32px;
+  }
+
+  .hero {
+    padding: 18px;
+  }
+
+  .hero h1 {
+    font-size: clamp(24px, 7vw, 34px);
+  }
+
+  .auth-card {
+    padding: 18px;
+  }
+
+  .auth-tabs {
+    gap: 8px;
+  }
+
+  .tab {
+    flex: 1 1 120px;
+  }
+
+  .device-stage {
+    padding: 14px;
+  }
+
+  .device-image {
+    min-height: 160px;
+  }
+
+  .device-tabs {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .device-tab {
+    min-width: 140px;
+    scroll-snap-align: start;
+  }
+
+  .device-specs {
+    gap: 6px;
+  }
+
+  .device-specs span {
+    font-size: 11px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-card {
+    padding: 14px;
   }
 
   .inline {
@@ -536,6 +612,28 @@ button.ghost {
   .app-bar {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    border-radius: 16px;
+  }
+
+  .card {
+    border-radius: 16px;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 15px;
+    padding: 12px 12px;
+  }
+
+  .device-tab {
+    min-width: 130px;
   }
 }
 
