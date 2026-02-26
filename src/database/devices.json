@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": "c38b7b4a-9db0-4d0c-9e8e-7e918f7f7a11",
+    "name": "CPU",
+    "category": "internal",
+    "description": "Markaziy protsessor, hisob-kitob va boshqaruvni amalga oshiradi.",
+    "image": "cpu.jpg",
+    "specs": {
+      "frequency": "3.5GHz",
+      "cores": 8
+    },
+    "createdAt": "2026-02-26"
+  },
+  {
+    "id": "f2a1b7c8-1d2e-4fa8-9b8d-4b3c8f2d5b22",
+    "name": "Monitor",
+    "category": "external",
+    "description": "Tasvirni ekranga chiqaruvchi qurilma.",
+    "image": "monitor.jpg",
+    "specs": {
+      "size": "24-inch",
+      "resolution": "1920x1080"
+    },
+    "createdAt": "2026-02-26"
+  }
+]

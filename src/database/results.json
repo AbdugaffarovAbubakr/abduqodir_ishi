@@ -1,0 +1,20 @@
+[
+  {
+    "id": "adefe29d-17a0-4f6c-bce8-ae188b1f301f",
+    "userId": "a25880cb-30a2-4b7e-b325-5231958ab0b7",
+    "deviceId": "c38b7b4a-9db0-4d0c-9e8e-7e918f7f7a11",
+    "score": 2,
+    "total": 2,
+    "percentage": 100,
+    "date": "2026-02-26"
+  },
+  {
+    "id": "600aba5c-5583-421c-9a50-9e58183b08fa",
+    "userId": "a25880cb-30a2-4b7e-b325-5231958ab0b7",
+    "deviceId": "f2a1b7c8-1d2e-4fa8-9b8d-4b3c8f2d5b22",
+    "score": 2,
+    "total": 2,
+    "percentage": 100,
+    "date": "2026-02-26"
+  }
+]

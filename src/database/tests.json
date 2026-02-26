@@ -1,0 +1,62 @@
+[
+  {
+    "id": "d1e2f3a4-1111-2222-3333-444455556666",
+    "deviceId": "c38b7b4a-9db0-4d0c-9e8e-7e918f7f7a11",
+    "question": "CPU nima vazifani bajaradi?",
+    "options": [
+      "Ma'lumot saqlaydi",
+      "Hisob-kitob qiladi",
+      "Tasvir chiqaradi",
+      "Ovoz chiqaradi"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "e2f3a4b5-1111-2222-3333-444455556667",
+    "deviceId": "c38b7b4a-9db0-4d0c-9e8e-7e918f7f7a11",
+    "question": "CPU ning asosiy o'lchovi qaysi?",
+    "options": [
+      "Xotira hajmi",
+      "Chastota",
+      "Ekran o'lchami",
+      "Ovoz quvvati"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "a1b2c3d4-1111-2222-3333-444455556668",
+    "deviceId": "f2a1b7c8-1d2e-4fa8-9b8d-4b3c8f2d5b22",
+    "question": "Monitor qaysi turdagi qurilma?",
+    "options": [
+      "Ichki qurilma",
+      "Tashqi qurilma",
+      "Saqlash qurilmasi",
+      "Tarmoq qurilmasi"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "b2c3d4e5-1111-2222-3333-444455556669",
+    "deviceId": "f2a1b7c8-1d2e-4fa8-9b8d-4b3c8f2d5b22",
+    "question": "Monitorning asosiy vazifasi nima?",
+    "options": [
+      "Ma'lumot saqlash",
+      "Tasvir chiqarish",
+      "Hisob-kitob",
+      "Ovoz chiqarish"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": "81dec99c-212d-49c7-a6c5-8b1658a59305",
+    "deviceId": "c38b7b4a-9db0-4d0c-9e8e-7e918f7f7a11",
+    "question": "SSD va HDD farqi nimada?",
+    "options": [
+      "SSD bu CPU ning boshqacha nomi",
+      "SSD tezroq, HDD sekinroq",
+      "HDD bu fleshkali xotira",
+      "SSD HDD dan sekinroq"
+    ],
+    "correctAnswer": 1
+  }
+]
